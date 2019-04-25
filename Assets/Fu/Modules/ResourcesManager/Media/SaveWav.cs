@@ -28,7 +28,7 @@ using System;
 using System.IO;
 using UnityEngine;
 using System.Collections.Generic;
-namespace Fu.Media
+namespace Freehand.Media
 {
     public static class SaveWav
     {

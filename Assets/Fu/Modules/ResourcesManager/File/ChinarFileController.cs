@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System;
 
-namespace Fu
+namespace Freehand
 {
 
     public delegate void FileAction(string path,string fileTitle);

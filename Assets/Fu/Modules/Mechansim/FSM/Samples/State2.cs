@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace Lingann.Lab.FiniteStateMachine
+namespace Freehand.Core.FiniteStateMachine
 {
     public class State2 : StateBehaviour
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-namespace Lingann.Lab.FiniteStateMachine
+namespace Freehand.Core.FiniteStateMachine
 {
     public class RootState : StateBehaviour
     {

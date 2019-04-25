@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
-namespace Fu.Ali.Speech
+namespace Freehand.Ali.Speech
 {
     /// <summary>
     /// 用户解析token的json数据

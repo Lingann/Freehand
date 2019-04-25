@@ -1,0 +1,18 @@
+{
+  "domain": {
+    "ttsServer": "https://nls-gateway.cn-shanghai.aliyuncs.com/stream/v1/tts",
+    "asrServer": ""
+  },
+  "tts": {
+    "appkey": "2Oo9RnJO0cn7Ed3o",
+    "text": "",
+    "token": "b9e8c4a708ed48409cbd38f38343f81c",
+    "format": "wav",
+    "sample_rate": 16000,
+    "voice": "xiaoyun",
+    "volume": 50,
+    "speech_rate": 0,
+    "pitch_rate": 0
+  },
+  "asr": {}
+}

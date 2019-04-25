@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System;
 
-namespace Fu
+namespace Freehand
 {
     /// <summary>
     /// 文件日志类

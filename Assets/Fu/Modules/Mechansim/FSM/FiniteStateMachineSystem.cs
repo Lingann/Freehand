@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Lingann.Lab.FiniteStateMachine
+namespace Freehand.Core.FiniteStateMachine
 {
     public class FiniteStateMachineSystem
     {

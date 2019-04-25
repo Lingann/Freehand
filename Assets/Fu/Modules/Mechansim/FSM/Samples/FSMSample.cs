@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Lingann.Lab.FiniteStateMachine;
-public class FSMSample : FiniteStateMachineHandler
+namespace Freehand.Core.FiniteStateMachine
 {
-    protected override void Awake()
+    public class FSMSample : FiniteStateMachineHandler
     {
-        AddState<State1>();
-        AddState<State2>();
+        protected override void Awake()
+        {
+            AddState<State1>();
+            AddState<State2>();
+        }
+
+        protected override void Start()
+        {
+            Play<State1>();
+        }
     }
 
-    protected override void Start()
-    {
-        Play<State1>();
-    }
 }
