@@ -148,7 +148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -129, y: 142}
+  m_AnchoredPosition: {x: -129, y: 141.99997}
   m_SizeDelta: {x: 407.74, y: 210.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50568649
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_InputType: 0
   m_AsteriskChar: 42
   m_KeyboardType: 0
-  m_LineType: 0
+  m_LineType: 2
   m_HideMobileInput: 0
   m_CharacterValidation: 0
   m_CharacterLimit: 0
@@ -558,7 +558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.00004546191, y: -0.0000076293945}
+  m_AnchoredPosition: {x: -0.00004546191, y: -0.000022888184}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &179333643
@@ -952,7 +952,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 333724892}
   m_Direction: 2
   m_Value: 1
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1166,8 +1166,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000091552734, y: -0.49996948}
-  m_SizeDelta: {x: 76.935, y: 36.448}
+  m_AnchoredPosition: {x: -0.25, y: -1.5999985}
+  m_SizeDelta: {x: 76.69, y: 34.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &355593482
 MonoBehaviour:
@@ -1198,8 +1198,8 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 0
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 
 --- !u!222 &355593483
@@ -2623,7 +2623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.66000366, y: -1.3499985}
+  m_AnchoredPosition: {x: -0.66000366, y: -1.3499908}
   m_SizeDelta: {x: 78.06, y: 36.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &986442729

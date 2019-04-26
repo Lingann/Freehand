@@ -28,7 +28,7 @@ namespace Freehand.Core.FiniteStateMachine
             }
         }
 
-        private MonoBehaviour _holder;
+        //private MonoBehaviour _holder;
 
         private bool _isParentState = false;
 
