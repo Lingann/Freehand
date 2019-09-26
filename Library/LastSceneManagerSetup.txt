@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Freehand/Core_Samples/FSM/FSM.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

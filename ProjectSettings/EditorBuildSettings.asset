@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Fu/Modules/Tools/Speech/AliSpeech/Samples/TTSSample.unity
+    path: Assets/Freehand/Extensions/Tools/Speech/AliSpeech/Samples/TTSSample.unity
     guid: 72f5e2a13d8cfd448ac3faf60dff105e
   m_configObjects: {}
