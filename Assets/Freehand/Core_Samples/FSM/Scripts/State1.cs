@@ -5,28 +5,28 @@ namespace Freehand.Core.FiniteStateMachine
 {
     public class State1 : StateBehaviour
     {
-        protected internal override void Awake()
+        protected override void Awake()
         {
             stateSystem.AddState<ChildState1>();
             stateSystem.AddState<ChildState2>();
         }
 
-        protected internal override void Start()
+        protected override void Start()
         {
             Debug.Log("Start: " + name);
         }
 
-        protected internal override void Enter()
+        protected override void Enter()
         {
             Debug.Log("Enter: " + name);
         }
 
-        protected internal override void Exit()
+        protected override void Exit()
         {
             Debug.Log("Exit: " + name);
         }
 
-        protected internal override void Update()
+        protected override void Update()
         {
             Debug.Log("Update" + name);
 

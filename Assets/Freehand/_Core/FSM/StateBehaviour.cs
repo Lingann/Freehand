@@ -52,10 +52,10 @@ namespace Freehand.Core.FiniteStateMachine
         private int _times;
         private FiniteStateMachineSystem _stateSystem;
 
-        public BehaviourAction OnAwake;
-        public BehaviourAction OnStart;
-        public BehaviourAction OnEnter;
-        public BehaviourAction OnExit;
+        public readonly BehaviourAction OnAwake;
+        public readonly BehaviourAction OnStart;
+        public readonly BehaviourAction OnEnter;
+        public readonly BehaviourAction OnExit;
         public BehaviourAction OnUpdate;
         public BehaviourAction OnLateUpdate;
         public BehaviourAction OnFixedUpdate;
@@ -75,37 +75,37 @@ namespace Freehand.Core.FiniteStateMachine
         /// <summary>
         /// 当状态被添加到状态机时回调
         /// </summary>
-        protected internal virtual void Awake() { }
+        protected virtual void Awake() { }
 
         /// <summary>
         /// 
         /// </summary>
-        protected internal virtual void Start() { }
+        protected virtual void Start() { }
 
         /// <summary>
         /// 进入状态回调
         /// </summary>
-        protected internal virtual void Enter() { }
+        protected virtual void Enter() { }
 
         /// <summary>
         /// 退出状态时回调
         /// </summary>
-        protected internal virtual void Exit() { }
+        protected virtual void Exit() { }
 
         /// <summary>
         /// 每帧执行
         /// </summary>
-        protected internal virtual void Update() { }
+        protected virtual void Update() { }
 
         /// <summary>
         ///  每帧执行
         /// </summary>
-        protected internal virtual void FixedUpdate() { }
+        protected virtual void FixedUpdate() { }
 
         /// <summary>
         ///  每帧执行
         /// </summary>
-        protected internal virtual void LateUpdate() { }
+        protected virtual void LateUpdate() { }
 
         private void AddTimes()
         {
